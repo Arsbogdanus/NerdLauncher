@@ -19,7 +19,11 @@ public class NerdLauncherFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_nerd_launcher, container,
             false);
+<<<<<<< HEAD
         mRecyclerView = (RecyclerView) v.findViewById(R.id.app_recycler_view);
+=======
+        mRecyclerView = (RecyclerView) v.findViewById(ТR.id.app_recycler_view);
+>>>>>>> origin/main
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         return v;
     }
